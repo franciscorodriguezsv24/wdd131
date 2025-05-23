@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏞️ Country - places</title>
+    <meta name="author" content="Francisco Rodriguez"/>
+    <meta
+        name="WDD 131 – Dynamic Web Fundamentals"
+        content="This is my personal blog Francisco Rodriguez." />
+    <link rel="stylesheet" href="./styles/place.css">
+    <link rel="stylesheet" href="./styles/temple-large.css" media="(min-width: 980px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Lusitana:wght@400;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src='./scripts/place.js' defer></script>
+</head>
+<body>
+    <header>
+        <h1>El Salvador</h1>
+    </header>
+    <div class="place-container">
+        <figure>
+            <img src="./img/Banner_sm.webp" alt="El Salvador" class="place-image-sm" width="100%" height="auto">
+            <img src="./img/Banner_lg.webp" alt="El Salvador" class="place-image-lg" width="100%" height="auto">
+        </figure>
+        <section class="place-data">
+            <h2>Data</h2>
+            <div class="">
+                <div class="place-data-item">
+                    <strong>Area:</strong>
+                    <div class="weather-value">21,041 km²</div>
+                </div>
+                <div class="place-data-item">
+                    <strong>Population:</strong>
+                    <div class="weather-value">6.5 millones</div>
+                </div>
+                <div class="place-data-item">
+                    <strong>Capital:</strong>
+                    <div class="weather-value">San Salvador</div>
+                </div>
+                <div class="place-data-item">
+                    <strong>Languages:</strong>
+                    <div class="weather-value">Spanish</div>
+                </div>
+                <div class="place-data-item">
+                    <strong>Currency:</strong>
+                    <div class="weather-value">$ USD/Bitcoin</div>
+                </div>
+                <div class="place-data-item">
+                    <strong>Time Zone:</strong>
+                    <div class="weather-value">CST (UTC-6)</div>
+                </div>
+                <div class="place-data-item">
+                    <strong>Calling Code:</strong>
+                    <div class="weather-value">+503</div>
+                </div>
+                <div class="place-data-item">
+                    <strong>Internet TLD:</strong>
+                    <div class="weather-value">.sv</div>
+                </div>
+            </div>
+        </section>
+        <section class="place-data-weather">
+            <div class="place-title-weather">
+                <h2>Weather</h2>
+                <span class="weather-icon">
+                    <img src="./img/icons/wether.svg" alt="Weather Icon" width="100" height="100">
+                </span>
+            </div>
+            <div class="weather-info">
+                <div class="place-weather-item">
+                    <strong>Temperature</strong>
+                    <div class="weather-value">5°C</div>
+                </div>
+                <div class="place-weather-item">
+                    <strong>Wind Speed</strong>
+                    <div class="weather-value">15 km/h</div>
+                </div>
+                <div class="place-weather-item">
+                    <strong>Humidity</strong>
+                    <div class="weather-value">68%</div>
+                </div>
+                <div class="place-weather-item">
+                    <strong>Windchill Factor</strong>
+                    <div class="weather-value" id="windchill">Calculating...</div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Weather Information Service</p>
+        <p>Last modified: <span id="lastModified">Loading...</span></p>
+        <p>Francisco Rodriguez ESA</p>
+    </footer>
+</body>
+
