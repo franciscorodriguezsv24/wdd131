@@ -1,0 +1,182 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="600" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333">Responsive Wireframe Design</text>
+  
+  <!-- Desktop Layout -->
+  <g id="desktop-layout">
+    <!-- Desktop Label -->
+    <text x="300" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#666">Desktop (1024px+)</text>
+    
+    <!-- Desktop Container -->
+    <rect x="50" y="90" width="500" height="650" fill="white" stroke="#333" stroke-width="2"/>
+    
+    <!-- Desktop Header -->
+    <rect x="60" y="100" width="480" height="60" fill="#e9ecef" stroke="#333" stroke-width="1"/>
+    <rect x="70" y="110" width="80" height="40" fill="#dee2e6" stroke="#333" stroke-width="1"/>
+    <text x="110" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">LOGO</text>
+    
+    <!-- Desktop Navigation -->
+    <rect x="380" y="110" width="40" height="20" fill="#dee2e6" stroke="#333" stroke-width="1"/>
+    <text x="400" y="124" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333">Home</text>
+    <rect x="430" y="110" width="40" height="20" fill="#dee2e6" stroke="#333" stroke-width="1"/>
+    <text x="450" y="124" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333">About</text>
+    <rect x="380" y="135" width="40" height="20" fill="#dee2e6" stroke="#333" stroke-width="1"/>
+    <text x="400" y="149" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333">Services</text>
+    <rect x="430" y="135" width="40" height="20" fill="#dee2e6" stroke="#333" stroke-width="1"/>
+    <text x="450" y="149" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333">Contact</text>
+    
+    <!-- Desktop Main Content -->
+    <rect x="60" y="170" width="330" height="480" fill="white" stroke="#333" stroke-width="1"/>
+    
+    <!-- Desktop Hero Section -->
+    <rect x="70" y="180" width="310" height="100" fill="#f8f9fa" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="225" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">HERO BANNER</text>
+    <text x="225" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#999">Main headline and CTA</text>
+    
+    <!-- Desktop Content Blocks -->
+    <rect x="70" y="290" width="150" height="80" fill="#f8f9fa" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="145" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">CONTENT 1</text>
+    <text x="145" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#999">Feature description</text>
+    
+    <rect x="230" y="290" width="150" height="80" fill="#f8f9fa" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="305" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">CONTENT 2</text>
+    <text x="305" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#999">Feature description</text>
+    
+    <!-- Desktop Full Width Content -->
+    <rect x="70" y="380" width="310" height="80" fill="#f8f9fa" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="225" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">FULL WIDTH CONTENT</text>
+    <text x="225" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#999">Article content or form</text>
+    
+    <!-- Desktop Additional Content -->
+    <rect x="70" y="470" width="310" height="70" fill="#f8f9fa" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="225" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">ADDITIONAL CONTENT</text>
+    <text x="225" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#999">More content sections</text>
+    
+    <!-- Desktop Sidebar -->
+    <rect x="400" y="170" width="140" height="480" fill="#f1f3f4" stroke="#333" stroke-width="1"/>
+    
+    <!-- Desktop Sidebar Widgets -->
+    <rect x="410" y="180" width="120" height="60" fill="#e9ecef" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="470" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">WIDGET 1</text>
+    <text x="470" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#999">Search/Newsletter</text>
+    
+    <rect x="410" y="250" width="120" height="60" fill="#e9ecef" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="470" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">WIDGET 2</text>
+    <text x="470" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#999">Recent Posts</text>
+    
+    <rect x="410" y="320" width="120" height="60" fill="#e9ecef" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="470" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">WIDGET 3</text>
+    <text x="470" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#999">Social Media</text>
+    
+    <!-- Desktop Footer -->
+    <rect x="60" y="660" width="480" height="70" fill="#e9ecef" stroke="#333" stroke-width="1"/>
+    
+    <!-- Desktop Footer Sections -->
+    <rect x="70" y="670" width="150" height="50" fill="#dee2e6" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="145" y="690" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">LINKS</text>
+    <text x="145" y="705" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#999">Navigation</text>
+    
+    <rect x="230" y="670" width="150" height="50" fill="#dee2e6" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="305" y="690" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">CONTACT</text>
+    <text x="305" y="705" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#999">Address, Phone</text>
+    
+    <rect x="390" y="670" width="140" height="50" fill="#dee2e6" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="460" y="690" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">SOCIAL</text>
+    <text x="460" y="705" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#999">Social Links</text>
+  </g>
+  
+  <!-- Mobile Layout -->
+  <g id="mobile-layout">
+    <!-- Mobile Label -->
+    <text x="800" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#666">Mobile (≤768px)</text>
+    
+    <!-- Mobile Container -->
+    <rect x="650" y="90" width="300" height="650" fill="white" stroke="#333" stroke-width="2"/>
+    
+    <!-- Mobile Header -->
+    <rect x="660" y="100" width="280" height="50" fill="#e9ecef" stroke="#333" stroke-width="1"/>
+    <rect x="670" y="110" width="60" height="30" fill="#dee2e6" stroke="#333" stroke-width="1"/>
+    <text x="700" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">LOGO</text>
+    
+    <!-- Mobile Hamburger Menu -->
+    <rect x="860" y="110" width="70" height="30" fill="#dee2e6" stroke="#333" stroke-width="1"/>
+    <text x="895" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">☰ MENU</text>
+    
+    <!-- Mobile Sidebar (moved to top) -->
+    <rect x="660" y="160" width="280" height="120" fill="#f1f3f4" stroke="#333" stroke-width="1"/>
+    
+    <!-- Mobile Sidebar Widgets (stacked) -->
+    <rect x="670" y="170" width="260" height="30" fill="#e9ecef" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="800" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">WIDGET 1 - Search/Newsletter</text>
+    
+    <rect x="670" y="205" width="260" height="30" fill="#e9ecef" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="800" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">WIDGET 2 - Recent Posts</text>
+    
+    <rect x="670" y="240" width="260" height="30" fill="#e9ecef" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="800" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">WIDGET 3 - Social Media</text>
+    
+    <!-- Mobile Main Content -->
+    <rect x="660" y="290" width="280" height="360" fill="white" stroke="#333" stroke-width="1"/>
+    
+    <!-- Mobile Hero Section -->
+    <rect x="670" y="300" width="260" height="60" fill="#f8f9fa" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="800" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">HERO BANNER</text>
+    <text x="800" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#999">Main headline and CTA</text>
+    
+    <!-- Mobile Content Blocks (stacked) -->
+    <rect x="670" y="370" width="260" height="60" fill="#f8f9fa" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="800" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">CONTENT BLOCK 1</text>
+    <text x="800" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#999">Feature description</text>
+    
+    <rect x="670" y="440" width="260" height="60" fill="#f8f9fa" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="800" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">CONTENT BLOCK 2</text>
+    <text x="800" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#999">Feature description</text>
+    
+    <!-- Mobile Full Width Content -->
+    <rect x="670" y="510" width="260" height="60" fill="#f8f9fa" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="800" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">FULL WIDTH CONTENT</text>
+    <text x="800" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#999">Article content or form</text>
+    
+    <!-- Mobile Additional Content -->
+    <rect x="670" y="580" width="260" height="60" fill="#f8f9fa" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="800" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">ADDITIONAL CONTENT</text>
+    <text x="800" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#999">More content sections</text>
+    
+    <!-- Mobile Footer -->
+    <rect x="660" y="660" width="280" height="70" fill="#e9ecef" stroke="#333" stroke-width="1"/>
+    
+    <!-- Mobile Footer Sections (stacked) -->
+    <rect x="670" y="670" width="260" height="15" fill="#dee2e6" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="800" y="682" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">LINKS - Navigation</text>
+    
+    <rect x="670" y="690" width="260" height="15" fill="#dee2e6" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="800" y="702" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">CONTACT - Address, Phone</text>
+    
+    <rect x="670" y="710" width="260" height="15" fill="#dee2e6" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="800" y="722" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">SOCIAL - Social Links</text>
+  </g>
+  
+  <!-- Responsive Flow Arrow -->
+  <path d="M 570 400 Q 600 400 630 400" stroke="#007bff" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="600" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#007bff" font-weight="bold">Responsive</text>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#007bff"/>
+    </marker>
+  </defs>
+  
+  <!-- Legend -->
+  <g id="legend">
+    <rect x="50" y="760" width="300" height="30" fill="white" stroke="#333" stroke-width="1"/>
+    <text x="60" y="775" font-family="Arial, sans-serif" font-size="10" fill="#333">Legend:</text>
+    <rect x="110" y="768" width="15" height="10" fill="#f8f9fa" stroke="#333" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="130" y="777" font-family="Arial, sans-serif" font-size="9" fill="#333">Content Areas</text>
+    <rect x="210" y="768" width="15" height="10" fill="#e9ecef" stroke="#333" stroke-width="1"/>
+    <text x="230" y="777" font-family="Arial, sans-serif" font-size="9" fill="#333">UI Elements</text>
+  </g>
+</svg>
