@@ -5,7 +5,6 @@
     const taskInput = document.getElementById('task-input');
     const taskList = document.getElementById('task-list');
 
-    // Display Tasks
     function displayTasks() {
         taskList.innerHTML = '';
         tasks.forEach((task, index) => {
